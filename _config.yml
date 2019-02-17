@@ -10,18 +10,18 @@
     # email: your-email@domain.com
     description: "Swimming coach. Better results for the best sport."
     text: "Swimming coach"
-    subtext: "Melhores resultados para o melhor esporte"
+    subtext: "Os melhores resultados para o melhor esporte"
     button: "Saiba mais"
 
     section-services:
       title: Serviços
-      description: "Consultoria Online personalizada"
+      description: "Consultoria Online Personalizada"
       services:
         - title: Treinos de Natação
-          description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit
-          ico: line-chart
+          description: A consultoria online para treinos de natação é totalmente individualizada e específica de acordo com o objetivo do aluno para as piscinas, seja ele voltado para a prática competitiva, lúdica ou para o bem-estar.
+          ico: trophy
         - title: Preparação Física direcionada à Natação
-          description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit
+          description: A organização dos treinos físicos é direcionada aos praticantes que já possuem certa experiência com a Natação e almejam aperfeiçoar o desempenho nas piscinas.
           ico: heartbeat
 
 
@@ -46,24 +46,32 @@
 
     section-portifolio:
         title: "O que é"
-        description: "..."
+        description: ""
 
     section-about:
       title: "Minha história"
-      description: "..."
-      end: "Be part
-            of our
-            story"
+      description: ""
       timeline:
-        - title: 'Our Humble Beginnings'
-          timewindow: '2009-2011'
+        - title: 'Natação da UFMG'
+          timewindow: 2014 – 2018
           pic: 1
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        - title: 'Colegio batista mineiro'
-          timewindow: 2002-2008
+          description: "Head coach da equipe de natação da UFMG. Equipe tetra campeã do estadual universitário, além de figurar entre as top 5 do Brasil desde 2014, sendo a melhor IES pública federal em todas as participações em campeonatos nacionais."
+        - title: 'Team GB'
+          timewindow: 2016
           pic: 2
-          description: "Florestinha"
-
+          description: "Auxiliar da seleção britânica de natação que competiu nos Jogos Olímpicos – Rio 2016. O time britânico fez a sua preparação para os Jogos no Centro de Treinamento Esportivo da UFMG nos meses de novembro de 2015, junho e julho de 2016."
+        - title: 'Mestrado em Ciências do Esporte'
+          timewindow: 2017
+          pic: 3
+          description: "Ano em que conquistei o título de Mestre em Ciências do Esporte. Caminhada acadêmica que teria um grande progresso nos anos seguintes."
+        - title: 'Temporada com Atleta Olímpica'
+          timewindow: 2017
+          pic: 4
+          description: "Auxiliar técnico da nadadora olímpica Joanna Maranhão. Na temporada em que a atleta alcançou seus melhores tempos da vida em suas principais provas, eu pude acompanhá-la de perto e contribuir para que o desempenho fosse otimizado a todo momento."
+        - title: ''
+          timewindow: 2018 – 2019
+          pic: 5
+          description: "Início dos estudos para ingressar no Doutorado na Università degli Studi Di Roma Tor Vergata, em Roma – Itália."
 # # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 # social:
 #   - title: twitter
