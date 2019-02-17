@@ -1,65 +1,89 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+# url: https://y7kim.github.io
+# baseurl: /
 
-# Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+# -------------------------------
+#  Content
+# -------------------------------
+# t:
+#   pt-br:
+    title: Luiza Vieira
+    # email: your-email@domain.com
+    description: "Swimming coach. Better results for the best sport."
+    text: "Swimming coach"
+    subtext: "Melhores resultados para o melhor esporte"
+    button: "Saiba mais"
+
+    section-services:
+      title: Serviços
+      description: "Consultoria Online personalizada"
+      services:
+        - title: Treinos de Natação
+          description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit
+          ico: line-chart
+        - title: Preparação Física direcionada à Natação
+          description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit
+          ico: heartbeat
 
 
-# Team names, titles and social links
-people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+    # Team names, titles and social links
+    section-team:
+      title: "Contato"
+      description: ""
+      end: ""
+      people:
+      - name: Luiza Vieira
+        pic: coach
+        position: Swimming coach
+        social:
+          - title: facebook
+            url: https://facebook.com/luiza.ferreiravieira
+          - title: twitter
+            url: https://twitter.com/luizafvieira
+          - title: instagram
+            url: https://instagram.com/luizavieira_swimcoach
+          - title: whatsapp
+            url: https://bit.ly/luizavieira
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+    section-portifolio:
+        title: "O que é"
+        description: "..."
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+    section-about:
+      title: "Minha história"
+      description: "..."
+      end: "Be part
+            of our
+            story"
+      timeline:
+        - title: 'Our Humble Beginnings'
+          timewindow: '2009-2011'
+          pic: 1
+          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        - title: 'Colegio batista mineiro'
+          timewindow: 2002-2008
+          pic: 2
+          description: "Florestinha"
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+# # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# social:
+#   - title: twitter
+#     url: http://twitter.com/jekyllrb
+#   - title: facebook
+#     url:
+#   - title: stack-overflow
+#     url: http://stackoverflow.com/questions/tagged/jekyll
+#   - title: bitbucket
+#     url: http://bitbucket.org/jekyll
+#   - title: github
+#     url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+# address:
+#   - line: 3481 Melrose Place
+#   - line: Beverly Hills, CA 90210
 
+# -------------------------------
 # Build settings
+# -------------------------------
 markdown: kramdown
 permalink: pretty
